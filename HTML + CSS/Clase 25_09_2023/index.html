@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Secciones y lineas generales de un documento HTML5</h1>
+        </div>
+        <div>
+            <p>
+                La especificación HTML5 trae muchos nuevos elementos a los desarrolladores web, permitiéndoles describir la estructura de un documento web con semántica estandarizada. Este documento describe estos elementos y cómo usarlos para definir el perfil de cualquier documento.
+            </p>
+        </div>
+    </header>
+    <main>
+        <h2>
+            Problemas resueltos por HTML5
+        </h2>
+        <hr>
+        <p>
+            La definición de la estructura de un documento en HTML 4 y su algoritmo de perfilado es muy tosco y genera numerosos problemas:
+        </p>
+        <ol>
+            <li>HTML5 quita la necesidad de elementos &ltdiv> para definir secciones semánticas sin definir valores específicos para los atributos class, introduciendo un nuevo elemento, &lt section &gt, el elemento de sección HTML.</li>
+            <li>Mezclar varios documentos es difícil: la inclusión de un sub-documento en un documento principal. Esto se resuelve en HTML5 con los elementos de seccionado (&ltarticle>, &ltsection>, &ltnav> y &ltaside>) son siempre subsecciones de su sección ancestra más cercana.</li>
+            <li>HTML5 introduce el elemento &lthgroup> que oculta todos los elementos de cabecera excepto el primero de más alto rango (por ejemplo, &lthgroup>&lth1>Justine&lt/h1>&lth2>Les Malheurs de la Vertu&lt/h2>&lt/hgroup> crea el perfil 1. Justine).</li>
+            <li>Un documento puede tener secciones especiales conteniendo información relacionado que no es parte del flujo principal. HTML5 introduce el elemento &ltaside> permitiendo a dichas secciones no ser parte del perfil principal.</li>
+            <li>Hay información relacionada no al documento, pero sí al sitio entero, como logos, menús, tablas de contenidos, o información de derechos de autor y notas legales. Para ese propósito, HTML5 introduce tres elementos de sección específicos: &ltnav> para colecciones de enlaces, como una tabla de contenidos, &ltfooter> y &ltheader> información relacionada con el sitio.           </li>
+        </ol>
+        <br>
+        <p>
+            De manera más general, HTML5 trae precisión a las características de seccionado y cabecera, permitiendo a los perfiles de documento ser predecibles y usados por el navegador para mejorar la experiencia de usuario.
+        </p>
+        <h2>
+            El algoritmo de perfilado de HTML5
+        </h2>
+        <hr>
+        <h3>
+            Definiendo secciones en HTML5
+        </h3>
+        <hr>
+        <p>
+            Todo el contenido incluido dentro del elemento &ltbody> es parte de una sección. Las secciones en HTML5 pueden ser anidadas. Además de la sección principal, definida por el elemento <body>, los límites de la sección son definidos explícita o implícitamente. Las secciones definidas explícitamente son el contenido definido en las etiquetas &ltbody>, &ltsection>, &ltarticle>, &ltaside>, &ltfooter>, &ltheader>, y &ltnav>. Nota: Cada sección puede tener su propia jerarquía de cabeceras. Por lo tanto, incluso una sección anidada puede tener un elemento &lth1>. Consulte también Definiendo cabeceras en HTML5.
+        </p>
+        <br>
+        <h3>Ejemplo:</h3>
+        <br>
+        <code>
+            &lt;section&gt;             
+            <br>
+                &nbsp; &lth1&gt;  Forest elephants &lt/h1&gt;
+            <br>
+            &nbsp; &lt;section&gt;
+            <br>
+                &nbsp; &nbsp; &lth1&gt;  Introduccion &lt/h1&gt; 
+            <br>
+            &nbsp; &nbsp; &ltp&gt;  Forest elephants do not live in tress but among them.  &lt/p&gt;
+            <br>
+            &nbsp; &lt;/section&gt;
+            <br>
+            &nbsp; &lt;section&gt;
+            <br>
+            &nbsp; &nbsp; &lth1&gt;  Habitat &lt/h1&gt;
+            <br>
+            &nbsp; &nbsp; &ltp&gt;  Forest elephants do not live in trees but among them. &lt/p&gt;
+            <br>
+            &nbsp; &lt;aside&gt;
+            <br>
+            &nbsp; &nbsp; &ltp&gt;  Adversting block. &lt/p&gt;
+            <br>
+            &nbsp; &lt;/aside&gt;
+            <br> 
+            &lt;/section&gt; 
+            <br>
+            &lt;footer&gt; 
+            <br>
+            &nbsp; &nbsp; &ltp&gt;  Adversting block. &lt/p&gt;
+            <br>
+            &lt;/footer&gt;
+        </code> 
+        
+    </main>    
+</body>
+</html>
