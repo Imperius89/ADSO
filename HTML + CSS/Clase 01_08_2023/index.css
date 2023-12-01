@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Padre {
+    background-color: salmon;
+}
+
+.a_1 {
+    background-color: pink; 
+}
+td {
+    border: 30cap;
+    border-radius: 10cap;
+    border-color: black;
+    background-color: none;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+.f_1 {
+    border: yellow 5px solid;
+    border-color: black 2px solid;
+    /* background-color: yellow; */
+}
+.f_2 {
+    border: yellow 5px solid;
+    /* border-color: black; */
+    /* background-color: yellow; */
+}
+.f_3 {
+    border: blue 5px solid;
+    /* border-radius: 1cap;
+    border-color: black;
+    background-color: blue; */
+}
+.f_4 {
+    border: red 5px solid;
+    /* border-radius: 1cap;
+    border-color: black; */
+    /* background-color: red; */
+}
