@@ -1,0 +1,14 @@
+body {
+    background-color: #456789;
+    color: whitesmoke;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    background-color: whitesmoke;
+    color: #456789;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
