@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;600;700&family=Raleway:wght@100;400;500&display=swap');
+
+body {
+    background-color: #456789;
+    font-family: 'Fira Sans', sans-serif;
+    color: whitesmoke;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.title {
+    background-color: white;
+    font-size: 20px;
+    color: #456789;
+    margin: auto;
+    padding: auto;
+}    
+
+h1 {
+    font-size: 80px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+    font-weight: 700 ;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    font-weight: 700 ;
+}
+
+main {
+    padding-right: 20%;
+    padding-left: 20%;
+
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    display: grid;
+}
+
+hr {
+    color: aliceblue;
+}
+
+button {
+    background-color: #456789;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+button:hover {
+    background-color: aliceblue ;
+    color: #456789;
+}
+
