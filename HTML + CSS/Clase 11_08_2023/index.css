@@ -1,0 +1,203 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1573883844855-f364441ac463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    color: black;
+  }
+  
+  .menu {
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: burlywood;
+  }
+  
+  hr {
+    height: 3px;
+    background-color: brown;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Impact", serif;
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .name {
+    width: 69%;
+  }
+  
+  .price {
+    width: 29%;
+    text-align: right;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer p,
+  foot a {
+    font-size: 14px;
+  }
+  
+  
+  a {
+    color: black;
+  }
+  
+  /* The following will be taught as a step just to make camper understands
+  the effect the visited pseudo-class has on a link.  The final color will be black.
+  */
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: rgb(42, 165, 54);
+  }
+  
+  .menu-icon {
+    margin-top: -15px;
+    height: 50px;
+  }
+  
+  .coffee-icon {
+    height: 45px;
+  }
+
+/* Carrusel de fotos automatico */
+
+.carrusel {
+  position: center;
+  display: flex;
+  overflow: hidden;
+  width: 300px;
+  height: auto;
+}
+
+.slide {
+  flex: 100%;
+  animation: slide 18s infinite;
+}
+
+.carrusel img {
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 20% {
+        transform: translateX(-100%);
+    }
+    20%, 30% {
+        transform: translateX(-200%);
+    }
+    30%, 40% {
+        transform: translateX(-300%);
+    }
+    40%, 50% {
+        transform: translateX(-400%);
+     }
+    50%, 60% {
+        transform: translateX(-500%);
+    }
+    60%, 70% {
+        transform: translateX(-600%);
+    }
+    70%, 80% {
+        transform: translateX(-700%);
+    }
+    80%, 90% {
+        transform: translateX(-800%);
+    }
+
+}
+
+/* Menu de navegacion desplegable */
+
+.desplegable  {
+  background: rgba(222, 184, 135, 0.6);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.desplegable > .central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desplegable > .izq {
+  display:flex;
+  justify-content: left;
+  align-items: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: burlywood;
+}
