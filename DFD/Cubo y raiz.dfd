@@ -1,0 +1,29 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+86
+"Ingrese el numero al cual se le va a calcular la raiz cubica y la raiz del resultado"
+5
+1
+1
+n
+6
+2
+1
+m
+5
+n*n*n
+1
+o
+7
+sqrt(m)
+4
+1
+116
+"El cubo de ",n, " es ",m, "                                                              ","La raiz de ",m," es ",o
+1
