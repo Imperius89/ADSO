@@ -1,0 +1,61 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+50
+"Ingrese la cantidad de numeros que va a digitar" 
+5
+1
+1
+n
+6
+2
+4
+cont
+1
+0
+3
+sum
+1
+0
+8
+1
+4
+cont
+1
+1
+1
+1
+1
+n
+1
+1
+1
+4
+1
+37
+"Ingrese el numero que se va a sumar"
+5
+1
+1
+m
+6
+1
+3
+sum
+5
+sum+m
+4
+1
+25
+"La cuenta va en :  ",sum
+10
+4
+1
+25
+"La suma total es:  ",sum
+1
